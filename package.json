@@ -1,0 +1,7 @@
+{
+  "name": "@cm-kawasaki-teruoamplify-sample-app",
+  "private": true,
+  "workspaces":[
+    "apps/*"
+  ]
+}
