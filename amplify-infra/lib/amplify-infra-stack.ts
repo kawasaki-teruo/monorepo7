@@ -36,7 +36,7 @@ export class AmplifyInfraStack extends Stack {
 
     const amplifyApp = new amplify.CfnApp(this, 'test-mypage-cdk', {
       name: 'test-mypage-cdk',
-			repository: 'https://github.com/kawasaki-teruo/monorepo5',
+			repository: 'https://github.com/kawasaki-teruo/monorepo7',
       oauthToken: secret.secretValueFromJson('my-github-token').toString(),
       environmentVariables: [monorepo],
       iamServiceRole: role.roleArn,
