@@ -1,5 +1,5 @@
 {
-  "name": "@cm-kawasaki-teruoamplify-sample-app",
+  "name": "@cm-kawasaki-teruo/amplify-sample-app",
   "private": true,
   "workspaces":[
     "apps/*"
